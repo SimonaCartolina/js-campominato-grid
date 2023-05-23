@@ -14,11 +14,15 @@ function createElement(tagName, classList){
 }
 
 
+const button= document.querySelector('button');
+button.addEventListener('click', function(){
+    for(let i=0; i<100; i++){
+        liElement= createElement('li');
+        ulElement.appendChild(createElement('li', 'liElement'));
+    }
 
-for(let i=0; i<100; i++){
-    liElement= createElement('li');
-    ulElement.appendChild(createElement('li', 'liElement'));
-}
+})
+/**/
 
 
 /*Consegna
